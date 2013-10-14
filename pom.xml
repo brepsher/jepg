@@ -7,10 +7,6 @@
 	<version>1.0.0</version>
 	<name>Java EPG</name>
 	<url>http://maven.apache.org</url>
-	<modules>
-		<module>jepg</module>
-	</modules>
-
 	<build>
 		<resources>
 			<resource>

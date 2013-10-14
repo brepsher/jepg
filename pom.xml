@@ -4,11 +4,28 @@
 	<groupId>com.arc.app</groupId>
 	<artifactId>jEPG</artifactId>
 	<packaging>pom</packaging>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>Java EPG</name>
 	<url>http://maven.apache.org</url>
+	<modules>
+		<module>jepg</module>
+	</modules>
+
 	<build>
-		<sourceDirectory>src</sourceDirectory>
+		<resources>
+			<resource>
+				<directory>src</directory>
+			</resource>
+			<resource>
+				<directory>src</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>**/*.xml</include>
+					<include>**/*.properties</include>
+					<include>**/*.avsc</include>
+				</includes>
+			</resource>
+		</resources>
 	</build>
 </project>
 

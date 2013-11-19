@@ -20,14 +20,9 @@ public class RectangleTest {
 	@Test
 	public void test1() {
 		
-		r1 = new Rectangle();
-
-	        int x1 = 10, y1 = 20;
-	        int x2 = 30, y2 = 60;
-
 		try {
 		
-			r1 = new Rectangle();
+			Shape r1 = new Rectangle();
 
 	        	int x1 = 10, y1 = 20;
 	        	int x2 = 30, y2 = 60;

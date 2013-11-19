@@ -7,6 +7,7 @@
 	<version>1.0.0</version>
 	<name>Java EPG</name>
 	<url>http://maven.apache.org</url>
+	<dependencies>
 	<!--  Testing  -->
 	<dependency>
 		<groupId>junit</groupId>
@@ -14,6 +15,7 @@
 		<version>4.8.2</version>
 		<scope>test</scope>
 	</dependency>
+	</dependencies>
 	<build>
 		<resources>
 			<resource>

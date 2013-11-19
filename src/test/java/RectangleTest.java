@@ -22,7 +22,7 @@ public class RectangleTest {
 		
 		try {
 		
-			Shape r1 = new Rectangle();
+			Rectangle r1 = new Rectangle();
 
 	        	int x1 = 10, y1 = 20;
 	        	int x2 = 30, y2 = 60;
